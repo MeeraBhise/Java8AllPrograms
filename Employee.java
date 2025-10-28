@@ -79,8 +79,8 @@ public class Employee {
         emplist.add((new Employee(11,"anuja",23,"male","electronics",2021,20000)));
         emplist.add((new Employee(12,"mihir",27,"male","computer",1998,20000)));
         emplist.add((new Employee(10,"miha",75,"male","hr",2010,20000)));
-
         Map<String ,Long>noofmaleandfemale=emplist.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.counting()));
         System.out.println(noofmaleandfemale);
+        System.out.println("meera123");
     }
 }
